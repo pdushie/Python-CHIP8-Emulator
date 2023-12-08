@@ -618,6 +618,7 @@ class Emulator:
                 except: pass
 
     def mainLoop(self):
+        pygame.init()
         clock = pygame.time.Clock()
 
         while True:
