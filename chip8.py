@@ -618,7 +618,7 @@ class Emulator:
                 except: pass
 
     def mainLoop(self):
-        screen = pygame.display.set_mode((800,600)) # Included a screen in which to display the emulator
+        screen = pygame.display.set_mode((800,800)) # Included a screen in which to display the emulator
         
         clock = pygame.time.Clock()
 
