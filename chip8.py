@@ -3,7 +3,7 @@ import time
 import sys
 import random
 import os
-
+pygame.init()
 class Register:
     def __init__(self, bits):
         self.value = 0
